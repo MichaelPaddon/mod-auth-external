@@ -1,4 +1,4 @@
-# mod-authnz-external [![Build Status](https://travis-ci.org/phokz/mod-auth-external.svg?branch=master)](https://travis-ci.org/phokz/mod-auth-external)
+# mod-authnz-external [![Build Status](https://github.com/phokz/mod-auth-external/actions/workflows/build.yml/badge.svg)](https://github.com/phokz/mod-auth-external/actions/workflows/build.yml)
 ### External Authentication Module for Apache HTTP Server - [Apache License 1.0](https://www.apache.org/licenses/LICENSE-1.0)
 Previous Maintainers: Jan Wolter (http://www.unixpapa.com), Tyler Allison (allison@nas.nasa.gov)
   
@@ -6,6 +6,7 @@ Original Author: Nathan Neulinger (nneul@umr.edu)
 
 **Mod_authnz_external is a flexible tool for building custom basic authentication systems for the [Apache HTTP Server](http://httpd.apache.org)**. "Basic Authentication" is a type of authentication built into the HTTP protocol, in which the browser automatically pops up a login box when the user requests a protected resource, and the login ids and passwords entered are checked by Apache. Mod_auth*_external allows the password checking normally done inside Apache to be done by an separate external program running outside of Apache.
 
+![high-level overview diagram of mod_authnz_external](/documentation/mod_authnz_external%20overview.png)
 
 ### Security Considerations
 
